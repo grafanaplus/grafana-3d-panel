@@ -1,0 +1,33 @@
+{
+  "type": "panel",
+  "name": "Three JS",
+  "id": "natel-threejs-panel",
+
+  "info": {
+    "description": "Three-js panel for grafana",
+    "author": {
+      "name": "Natel Energy"
+    },
+    "keywords": [ "three", "scatter", "panel" ],
+    "logos": {
+      "small": "src/img/plotly_logo.svg",
+      "large": "src/img/plotly_logo.svg"
+    },
+    "links": [
+      {"name": "Plot.ly", "url": "https://plot.ly/javascript/"},
+      {"name": "Github", "url": "https://github.com/NatelEnergy/grafana-plotly-panel"},
+      {"name": "MIT License",  "url": "https://github.com/NatelEnergy/grafana-plotly-panel/blob/master/LICENSE"},
+      {"name": "Natel Energy", "url": "http://www.natelenergy.com/"}
+    ],
+    "screenshots": [
+      { "name": "Scatter",     "path": "src/img/screenshot-scatter.png"  }
+    ],
+    "version": "0.0.1",
+    "updated": "2016-02-01"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "3.x.x",
+    "plugins": [ ]
+  }
+}
